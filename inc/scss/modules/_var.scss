@@ -1,0 +1,104 @@
+
+// MAIN 主色
+
+$main-red:#FE6270;
+$main-red-2:#ED3853;
+
+$main-orange:#F5A623;
+
+$main-gray:#747780;
+
+$main-txt:#4A4A4A;
+
+$main-blue:#0EE0F2;
+$main-blue-2:#06BEE1;
+
+// mixin
+
+// 使用background做icon
+@mixin iconBg($path, $size) {
+    background-image: url($path);
+    background-size: $size;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+// MEDIA QUERY MB大小調整
+$ip5:374px;
+$ip8:413px;
+$pad:415px;
+@mixin iphone5() {
+    @media all and (max-width: $ip5) {
+        @content;
+    }
+}
+
+@mixin iphone8() {
+    @media all and (min-width: $ip5) and (max-width:$ip8) {
+        @content;
+    }
+}
+
+@mixin iphone8plus() {
+    @media all and (min-width: $ip8) and (max-width:$pad) {
+        @content;
+    }
+}
+
+@mixin pad() {
+    @media all and (min-width: $pad) {
+        @content;
+    }
+}
+
+
+@mixin mainGradient($from,$to) {
+
+    background: #fe6270;
+    /* Old browsers */
+    background: -moz-linear-gradient($from, #fe6270 0%, #ed3853 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient($from, #fe6270 0%, #ed3853 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to $to, #fe6270 0%, #ed3853 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fe6270', endColorstr='#ed3853', GradientType=0);
+    /* IE6-9 */
+}
+
+@mixin blueGradient($from,$to){
+
+background: #0ee0f2;
+/* Old browsers */
+
+background: -moz-linear-gradient($from, #0ee0f2 0%, #06bee1 100%);
+/* FF3.6-15 */
+
+background: -webkit-linear-gradient($from, #0ee0f2 0%, #06bee1 100%);
+/* Chrome10-25,Safari5.1-6 */
+
+background: linear-gradient(to $to, #0ee0f2 0%, #06bee1 100%);
+/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0ee0f2', endColorstr='#06bee1', GradientType=1);
+/* IE6-9 */
+}
+
+@mixin grayGradient() {
+background: #acafb6;
+/* Old browsers */
+
+background: -moz-linear-gradient(45deg, #acafb6 0%, #747780 100%);
+/* FF3.6-15 */
+
+background: -webkit-linear-gradient(45deg, #acafb6 0%, #747780 100%);
+/* Chrome10-25,Safari5.1-6 */
+
+background: linear-gradient(45deg, #acafb6 0%, #747780 100%);
+/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#acafb6', endColorstr='#747780', GradientType=1);
+/* IE6-9 fallback on horizontal gradient */
+
+}

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="523px" height="195px" viewBox="0 0 523 195" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.4 (67378) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#FE6270" offset="0%"></stop>
+            <stop stop-color="#ED3853" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="政見" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round">
+        <g id="首頁-UI" transform="translate(-32.000000, -395.000000)" fill-rule="nonzero" stroke="url(#linearGradient-1)" stroke-width="18">
+            <g id="Group-2" transform="translate(41.000000, 401.000000)">
+                <path d="M49,3 L179.34,3" id="Path-9"></path>
+                <polygon id="Path-9-Copy-4" stroke-linejoin="round" points="243.442913 3 353 3 332.697918 118 220 118"></polygon>
+                <path d="M142,103 L174.571429,103" id="Path-9-Copy-2"></path>
+                <path d="M407.640553,51.8166116 L500.349831,108.911297 L407.640553,51.8166116 Z M451.079919,80.8261471 L400.451929,100.818297 L451.079919,80.8261471 Z" id="Combined-Shape" stroke-linejoin="round" transform="translate(451.401634, 80.486169) rotate(99.000000) translate(-451.401634, -80.486169) "></path>
+                <path d="M268,80 L303.076923,80" id="Path-9-Copy-7"></path>
+                <path d="M274,41 L307.541667,41" id="Path-9-Copy-8"></path>
+                <path d="M290.825284,139 L282,174 C305.599038,174 319.754241,174 324.46561,174 C336.244219,174 345.422349,167.194444 352,153.583333" id="Path-9-Copy-6" stroke-linejoin="round"></path>
+                <path d="M207,177 C223.568314,177 235.400833,174.409208 242.497558,169.227624 L251,139" id="Path-9-Copy-5" stroke-linejoin="round"></path>
+                <polyline id="Path-9-Copy" stroke-linejoin="round" points="122.949197 38 87 177 179 177"></polyline>
+                <polyline id="Path-9-Copy-3" stroke-linejoin="round" transform="translate(32.500000, 138.500000) scale(-1, 1) translate(-32.500000, -138.500000) " points="0 97 24.0397539 180 65 180"></polyline>
+                <path d="M414.883818,78.2399309 C405.722696,88.4427964 400.145877,101.931114 400.139071,116.718437 C400.12443,148.527694 425.889467,174.302323 457.686894,174.287682 C489.48432,174.27304 515.273096,148.474673 515.287737,116.665416 C515.302378,84.8561593 489.53734,59.0815306 457.739914,59.0961719 L454.017307,20.2221473" id="Path" stroke-linejoin="round" transform="translate(457.713404, 97.254918) rotate(-214.000000) translate(-457.713404, -97.254918) "></path>
+            </g>
+        </g>
+    </g>
+</svg>

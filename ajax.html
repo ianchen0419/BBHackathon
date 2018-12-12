@@ -1,0 +1,94 @@
+<html lang="ja"><head>
+	<meta charset="UTF-8">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta http-equiv="Content-Language" content="ja">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<title>test</title>
+<!-- <script src="chrome-extension://jhffgcfmcckgmioipfnmbannkpncfipo/util.js"></script> -->
+<!-- <script src="chrome-extension://jhffgcfmcckgmioipfnmbannkpncfipo/pagejs.js"></script></head> -->
+
+<body>
+
+	<h1>傳値測試</h1>
+	<form action="" onsubmit="send(this, event)" method="POST" id="myForm">
+	 	<label>
+	 		<input type="checkbox" id="industry" name="產業/就業">
+	 		<span>產業/就業</span>
+	 	</label>
+	 	<label>
+	 		<input type="checkbox" id="animal" name="動物">
+	 		<span>動物</span>
+	 	</label>
+	 	<label>
+	 		<input type="checkbox" id="city" name="都市創新">
+	 		<span>都市創新</span>
+	 	</label>
+	 	<label>
+	 		<input type="checkbox" id="incinerator" name="焚化爐">
+	 		<span>焚化爐</span>
+	 	</label>
+	 	<label>
+	 		<input type="checkbox" id="tour" name="觀光/文創">
+	 		<span>觀光/文創</span>
+	 	</label>
+	 	<label>
+	 		<input type="checkbox" id="environment" name="環境保護">
+	 		<span>環境保護</span>
+	 	</label>
+	 	<label>
+	 		<input type="checkbox" id="infra" name="基礎建設/交通">
+	 		<span>基礎建設/交通</span>
+	 	</label>
+	 	<label>
+	 		<input type="checkbox" id="education" name="教育">
+	 		<span>教育</span>
+	 	</label>
+	 	<label>
+	 		<input type="checkbox" id="agri" name="農業">
+	 		<span>農業</span>
+	 	</label>
+	 	<label>
+	 		<input type="checkbox" id="weak" name="弱勢關懷">
+	 		<span>弱勢關懷</span>
+	 	</label>
+	 	<label>
+	 		<input type="checkbox" id="home" name="社會住宅">
+	 		<span>社會住宅</span>
+	 	</label>
+	 	<label>
+	 		<input type="checkbox" id="island" name="社子島">
+	 		<span>社子島</span>
+	 	</label>
+	 	<label>
+	 		<input type="checkbox" id="food" name="食安">
+	 		<span>食安</span>
+	 	</label>
+	 	<label>
+	 		<input type="checkbox" id="baby" name="育兒">
+	 		<span>育兒</span>
+	 	</label>
+	 	<label>
+	 		<input type="checkbox" id="old" name="長照">
+	 		<span>長照</span>
+	 	</label>
+	 	<label>
+	 		<input type="checkbox" id="government" name="政府運作">
+	 		<span>政府運作</span>
+	 	</label>
+	 	<label>
+	 		<input type="checkbox" id="peace" name="治安">
+	 		<span>治安</span>
+	 	</label>
+	 	<br>
+		<input type="submit">
+	</form>
+
+	<p>
+		<strong>回傳的値為：</strong>
+		<span id="res"></span>
+	</p>
+  
+
+<script src="ajax.js"></script>
+
+</body></html>

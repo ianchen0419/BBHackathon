@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="30px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.4 (67378) - http://www.bohemiancoding.com/sketch -->
+    <title>icons8-search_filled</title>
+    <desc>Created with Sketch.</desc>
+    <g id="政見" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="首頁-UI" transform="translate(-516.000000, -810.000000)" fill="#393939" fill-rule="nonzero">
+            <g id="Group" transform="translate(55.000000, 800.000000)">
+                <g id="icons8-search_filled" transform="translate(461.000000, 10.000000)">
+                    <path d="M11.9648094,0 C5.35007367,0 0,5.22743587 0,11.6905444 C0,18.1536536 5.35007367,23.3810888 11.9648094,23.3810888 C14.3264298,23.3810888 16.5120971,22.7041547 18.3651026,21.5544413 L27.0087977,30 L30,27.0773639 L21.4662757,18.760745 C23.0003669,16.7944126 23.9296188,14.3579869 23.9296188,11.6905444 C23.9296188,5.22743587 18.5795458,0 11.9648094,0 Z M11.9648094,2.75071633 C17.0317084,2.75071633 21.1143695,6.73979209 21.1143695,11.6905444 C21.1143695,16.6412967 17.0317084,20.6303725 11.9648094,20.6303725 C6.89791038,20.6303725 2.81524927,16.6412967 2.81524927,11.6905444 C2.81524927,6.73979209 6.89791038,2.75071633 11.9648094,2.75071633 Z" id="Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
