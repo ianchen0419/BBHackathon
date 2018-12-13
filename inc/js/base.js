@@ -661,7 +661,7 @@ function selectedInfo(){
 	if(localStorage['district']==='北投士林'){
 		selectedMap.classList.add('active01');
 		localStorage['districtNum']='第一選區';
-	}else if(localStorage['district']==='內湖南港'){
+	}else if(localStorage['district']==='南港內湖'){
 		selectedMap.classList.add('active02');
 		localStorage['districtNum']='第二選區';
 	}else if(localStorage['district']==='松山信義'){

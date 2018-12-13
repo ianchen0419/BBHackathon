@@ -123,6 +123,7 @@
 		width: 150px;
 		height: 30px;
 		@include iconBg('../icons/logo.svg',contain);
+		cursor: pointer;
 	}
 	
 }
