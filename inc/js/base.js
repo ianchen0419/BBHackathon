@@ -54,270 +54,270 @@ const trophyPathRoute='M3.84615385,7.53232523e-05 C3.5687416,-0.00374986189 3.31
 
 
 
-// const george={  
-// 		   "transaction":{  
-// 		      "trx_id":"BBINQCAN",
-// 		      "type_id":"O",
-// 		      "rtn_code":"0000000",
-// 		      "oary_cnt":"04",
-// 		      "oary":[  
-// 		         {  
-// 		            "cand_name":"王芝安",
-// 		            "party":"party-orange",
-// 		            "platform_cnt":"06",
-// 		            "fan_page": "https://www.facebook.com/moko.beauty.dog/",
-// 		            "voice": '-42',
-// 		            "oary2":[  
-// 		               {  
-// 		                  "platform":"推動傳統市場打造成觀光夜市。"
-// 		               },
-// 		               {  
-// 		                  "platform":"爭取七星公園泡腳池。"
-// 		               },
-// 		               {  
-// 		                  "platform":"爭取公立幼稚園增加招生名額，造福百姓需要。"
-// 		               },
-// 		               {  
-// 		                  "platform":"爭取地熱谷溫泉煮蛋區。"
-// 		               },
-// 		               {  
-// 		                  "platform":"爭取復興公園游泳池改建為新北投運動中心(含老人福利中心及日間照顧、地下停車場)。"
-// 		               },
-// 		               {  
-// 		                  "platform":"爭取新北投捷運站直通象山站。(不用到北投站上下樓梯轉乘)"
-// 		               }
-// 		            ],
-// 		            "tag_cnt":"03",
-// 		            "oary3":[  
-// 		               {  
-// 		                  "tag":"建設",
-// 		                  "value": 5
-// 		               },
-// 		               {  
-// 		                  "tag":"育兒",
-// 		                  "value": 3.2
-// 		               },
-// 		               {  
-// 		                  "tag":"觀光",
-// 		                  "value": 2.4
-// 		               },
-// 		               {  
-// 		                  "tag":"寵物",
-// 		                  "value": 4.5
-// 		               },
-// 		               {  
-// 		                  "tag":"產業",
-// 		                  "value": 1.2
-// 		               }
-// 		            ]
-// 		         },
-// 		         {  
-// 		            "cand_name":"陳建銘",
-// 		            "party":"party-blue",
-// 		            "platform_cnt":"10",
-// 		            "fan_page": "https://www.facebook.com/moko.beauty.dog/",
-// 		            "voice": '-2',
-// 		            "oary2":[  
-// 		               {  
-// 		                  "platform":"「加油站」遠離「住宅區」及「故宮博物館歷史觀光區」, 並實現「大故宮綠色休閒觀光歷史文化區計畫」"
-// 		               },
-// 		               {  
-// 		                  "platform":"保護校園—不讓毒品、黑道介入, 讓學童享有安全學習教育區"
-// 		               },
-// 		               {  
-// 		                  "platform":"建立台北市「藍色公路」網並媲美「歐洲」如荷蘭自行車全市走道網狀區"
-// 		               },
-// 		               {  
-// 		                  "platform":"強力監督各級政府清廉執政, 以防止一切弊案發生, 如有弊案發生, 將不畏權勢, 強力揭發"
-// 		               },
-// 		               {  
-// 		                  "platform":"成立「婦幼保護中心」以防止家暴、性侵等發生"
-// 		               },
-// 		               {  
-// 		                  "platform":"成立「榮民安養就醫」服務諮詢中心"
-// 		               },
-// 		               {  
-// 		                  "platform":"矢志慈心濟弱, 人間菩薩行"
-// 		               },
-// 		               {  
-// 		                  "platform":"積極督促市府推動「老人安養各項福利及設施」, 以應付台灣高齡化之趨勢"
-// 		               },
-// 		               {  
-// 		                  "platform":"繼續推動「關渡平原」開發, 使北投、士林成為現代化「環保」「人文」「綠色科技」及「水岸」之國際城市"
-// 		               },
-// 		               {  
-// 		                  "platform":"繼續整治「淡水河」、「基隆河」流域, 並嚴查廢土倒棄河內, 以保護自然生態, 尊重生命"
-// 		               }
-// 		            ],
-// 		            "tag_cnt":"04",
-// 		            "oary3":[  
-// 		               {  
-// 		                  "tag":"建設",
-// 		                  "value": 1
-// 		               },
-// 		               {  
-// 		                  "tag":"環保",
-// 		                  "value": 3
-// 		               },
-// 		               {  
-// 		                  "tag":"觀光",
-// 		                  "value": 4
-// 		               },
-// 		               {  
-// 		                  "tag":"長照",
-// 		                  "value": 5
-// 		               },
-// 		               {  
-// 		                  "tag":"育兒",
-// 		                  "value": 2
-// 		               }
-// 		            ]
-// 		         },
-// 		         {  
-// 		            "cand_name":"李美津",
-// 		            "party":"party-none",
-// 		            "platform_cnt":"18",
-// 		            "fan_page": "javascript:;",
-// 		            "voice": '14',
-// 		            "oary2":[  
-// 		               {  
-// 		                  "platform":"任內關心「公辦民營老人安養護中心照護不周」、「獨老送餐缺失」等問題，未來將朝健全長者照顧網絡邁進。"
-// 		               },
-// 		               {  
-// 		                  "platform":"增設公幼，擴充幼兒就讀機會。"
-// 		               },
-// 		               {  
-// 		                  "platform":"多方傾聽，推動教育改革，消弭升學壓力！"
-// 		               },
-// 		               {  
-// 		                  "platform":"多語學習結合E化教育，學習成效最大化！"
-// 		               },
-// 		               {  
-// 		                  "platform":"打造「臺北科技走廊─ ─北投士林科技園區」，成為北市接軌國際要角。"
-// 		               },
-// 		               {  
-// 		                  "platform":"打造文創、藝術、觀光雲端運用平台。"
-// 		               },
-// 		               {  
-// 		                  "platform":"持續推動社子島開發計畫，打造永續、安全都市環境。"
-// 		               },
-// 		               {  
-// 		                  "platform":"持續要求AED建置及登錄效率。"
-// 		               },
-// 		               {  
-// 		                  "platform":"推動光纖網路建設，提升寬頻上網品質。"
-// 		               },
-// 		               {  
-// 		                  "platform":"推動市政服務上雲端。"
-// 		               },
-// 		               {  
-// 		                  "platform":"推廣「臺北市青年職涯發展方案」，協助青年適性就業。"
-// 		               },
-// 		               {  
-// 		                  "platform":"曾針對「家托人數過少，媒合不易」、「樂活補給站一市多制」提出問題，未來將持續關心各項身障者支持服務。"
-// 		               },
-// 		               {  
-// 		                  "platform":"發展創業募資平台，扶植青年創業。"
-// 		               },
-// 		               {  
-// 		                  "platform":"監督市府建置錄影監視系統第二期，強化犯罪偵防。"
-// 		               },
-// 		               {  
-// 		                  "platform":"監督關渡水岸環境再造工程，營造優質觀光特色。"
-// 		               },
-// 		               {  
-// 		                  "platform":"要求優先辦理災害應變中心資訊系統汰換，優化防災作業。"
-// 		               },
-// 		               {  
-// 		                  "platform":"關心健康、食安議題，如：「一、二代市民健康卡問題多」、「市售中藥養身飲品糖分偏高」、「市售清潔用品三氯沙超標」、「擴大辦理65歲以上免費施打肺炎鏈球菌疫苗」等，未來將持續把關，讓台北市民健康再進化！"
-// 		               },
-// 		               {  
-// 		                  "platform":"青年購屋不易，給予更多優惠！"
-// 		               }
-// 		            ],
-// 		            "tag_cnt":"08",
-// 		            "oary3":[  
-// 		               {  
-// 		                  "tag":"關懷",
-// 		                  "value": 1
-// 		               },
-// 		               {  
-// 		                  "tag":"治安",
-// 		                  "value": 5
-// 		               },
-// 		               {  
-// 		                  "tag":"產業",
-// 		                  "value": 4
-// 		               },
-// 		               {  
-// 		                  "tag":"市容",
-// 		                  "value": 2
-// 		               },
-// 		               {  
-// 		                  "tag":"育兒",
-// 		                  "value": 1
-// 		               }
-// 		            ]
-// 		         },
-// 		         {  
-// 		            "cand_name":"謝維洲",
-// 		            "party":"party-green",
-// 		            "platform_cnt":"08",
-// 		            "fan_page": "javascript:;",
-// 		            "voice": '44',
-// 		            "oary2":[  
-// 		               {  
-// 		                  "platform":"延續謝長廷、高建智、莊瑞雄在士林北投服務處的奉獻傳統，以「維骨力」的精神，加強服務。"
-// 		               },
-// 		               {  
-// 		                  "platform":"推動國中小學營養午餐的定期檢驗，落實食安管控。"
-// 		               },
-// 		               {  
-// 		                  "platform":"推動士林北投(1)老舊社區更新(2)觀光產業(3)規劃士林、天母、石牌商圈，促進地方繁榮。"
-// 		               },
-// 		               {  
-// 		                  "platform":"支持柯文哲擔任台北市長，改變藍綠對立的文化，提升生活品質，再創首都領導地位，恢復市民光榮感。"
-// 		               },
-// 		               {  
-// 		                  "platform":"改善士林北投偏遠山區及郊外地方的交通，教育，就業環境的問題。"
-// 		               },
-// 		               {  
-// 		                  "platform":"服務處提供免費法律諮詢，保障基本人權，解決民眾困難，並定期舉辦市政座談，邀請市民參與，落實公民審議精神。"
-// 		               },
-// 		               {  
-// 		                  "platform":"爭取婦女就業機會，推動日照，減輕家庭負擔，鼓勵老人社會參與，解決青年就業問題。"
-// 		               },
-// 		               {  
-// 		                  "platform":"督促市府盡快落實開發社子島，關渡平原的承諾。"
-// 		               }
-// 		            ],
-// 		            "tag_cnt":"04",
-// 		            "oary3":[  
-// 		               {  
-// 		                  "tag":"產業",
-// 		                  "value": 3
-// 		               },
-// 		               {  
-// 		                  "tag":"市容",
-// 		                  "value": 5
-// 		               },
-// 		               {  
-// 		                  "tag":"觀光",
-// 		                  "value": 4
-// 		               },
-// 		               {  
-// 		                  "tag":"食安",
-// 		                  "value": 1
-// 		               },
-// 		               {  
-// 		                  "tag":"寵物",
-// 		                  "value": 4
-// 		               }
-// 		            ]
-// 		         }
-// 		      ]
-// 		   }
-// 		}; 
+const george={  
+		   "transaction":{  
+		      "trx_id":"BBINQCAN",
+		      "type_id":"O",
+		      "rtn_code":"0000000",
+		      "oary_cnt":"04",
+		      "oary":[  
+		         {  
+		            "cand_name":"王芝安",
+		            "party":"party-orange",
+		            "platform_cnt":"06",
+		            "fan_page": "https://www.facebook.com/moko.beauty.dog/",
+		            "voice": '-42',
+		            "oary2":[  
+		               {  
+		                  "platform":"推動傳統市場打造成觀光夜市。"
+		               },
+		               {  
+		                  "platform":"爭取七星公園泡腳池。"
+		               },
+		               {  
+		                  "platform":"爭取公立幼稚園增加招生名額，造福百姓需要。"
+		               },
+		               {  
+		                  "platform":"爭取地熱谷溫泉煮蛋區。"
+		               },
+		               {  
+		                  "platform":"爭取復興公園游泳池改建為新北投運動中心(含老人福利中心及日間照顧、地下停車場)。"
+		               },
+		               {  
+		                  "platform":"爭取新北投捷運站直通象山站。(不用到北投站上下樓梯轉乘)"
+		               }
+		            ],
+		            "tag_cnt":"03",
+		            "oary3":[  
+		               {  
+		                  "tag":"建設",
+		                  "value": 5
+		               },
+		               {  
+		                  "tag":"育兒",
+		                  "value": 3.2
+		               },
+		               {  
+		                  "tag":"觀光",
+		                  "value": 2.4
+		               },
+		               {  
+		                  "tag":"寵物",
+		                  "value": 4.5
+		               },
+		               {  
+		                  "tag":"產業",
+		                  "value": 1.2
+		               }
+		            ]
+		         },
+		         {  
+		            "cand_name":"陳建銘",
+		            "party":"party-blue",
+		            "platform_cnt":"10",
+		            "fan_page": "https://www.facebook.com/moko.beauty.dog/",
+		            "voice": '-2',
+		            "oary2":[  
+		               {  
+		                  "platform":"「加油站」遠離「住宅區」及「故宮博物館歷史觀光區」, 並實現「大故宮綠色休閒觀光歷史文化區計畫」"
+		               },
+		               {  
+		                  "platform":"保護校園—不讓毒品、黑道介入, 讓學童享有安全學習教育區"
+		               },
+		               {  
+		                  "platform":"建立台北市「藍色公路」網並媲美「歐洲」如荷蘭自行車全市走道網狀區"
+		               },
+		               {  
+		                  "platform":"強力監督各級政府清廉執政, 以防止一切弊案發生, 如有弊案發生, 將不畏權勢, 強力揭發"
+		               },
+		               {  
+		                  "platform":"成立「婦幼保護中心」以防止家暴、性侵等發生"
+		               },
+		               {  
+		                  "platform":"成立「榮民安養就醫」服務諮詢中心"
+		               },
+		               {  
+		                  "platform":"矢志慈心濟弱, 人間菩薩行"
+		               },
+		               {  
+		                  "platform":"積極督促市府推動「老人安養各項福利及設施」, 以應付台灣高齡化之趨勢"
+		               },
+		               {  
+		                  "platform":"繼續推動「關渡平原」開發, 使北投、士林成為現代化「環保」「人文」「綠色科技」及「水岸」之國際城市"
+		               },
+		               {  
+		                  "platform":"繼續整治「淡水河」、「基隆河」流域, 並嚴查廢土倒棄河內, 以保護自然生態, 尊重生命"
+		               }
+		            ],
+		            "tag_cnt":"04",
+		            "oary3":[  
+		               {  
+		                  "tag":"建設",
+		                  "value": 1
+		               },
+		               {  
+		                  "tag":"環保",
+		                  "value": 3
+		               },
+		               {  
+		                  "tag":"觀光",
+		                  "value": 4
+		               },
+		               {  
+		                  "tag":"長照",
+		                  "value": 5
+		               },
+		               {  
+		                  "tag":"育兒",
+		                  "value": 2
+		               }
+		            ]
+		         },
+		         {  
+		            "cand_name":"李美津",
+		            "party":"party-none",
+		            "platform_cnt":"18",
+		            "fan_page": "javascript:;",
+		            "voice": '14',
+		            "oary2":[  
+		               {  
+		                  "platform":"任內關心「公辦民營老人安養護中心照護不周」、「獨老送餐缺失」等問題，未來將朝健全長者照顧網絡邁進。"
+		               },
+		               {  
+		                  "platform":"增設公幼，擴充幼兒就讀機會。"
+		               },
+		               {  
+		                  "platform":"多方傾聽，推動教育改革，消弭升學壓力！"
+		               },
+		               {  
+		                  "platform":"多語學習結合E化教育，學習成效最大化！"
+		               },
+		               {  
+		                  "platform":"打造「臺北科技走廊─ ─北投士林科技園區」，成為北市接軌國際要角。"
+		               },
+		               {  
+		                  "platform":"打造文創、藝術、觀光雲端運用平台。"
+		               },
+		               {  
+		                  "platform":"持續推動社子島開發計畫，打造永續、安全都市環境。"
+		               },
+		               {  
+		                  "platform":"持續要求AED建置及登錄效率。"
+		               },
+		               {  
+		                  "platform":"推動光纖網路建設，提升寬頻上網品質。"
+		               },
+		               {  
+		                  "platform":"推動市政服務上雲端。"
+		               },
+		               {  
+		                  "platform":"推廣「臺北市青年職涯發展方案」，協助青年適性就業。"
+		               },
+		               {  
+		                  "platform":"曾針對「家托人數過少，媒合不易」、「樂活補給站一市多制」提出問題，未來將持續關心各項身障者支持服務。"
+		               },
+		               {  
+		                  "platform":"發展創業募資平台，扶植青年創業。"
+		               },
+		               {  
+		                  "platform":"監督市府建置錄影監視系統第二期，強化犯罪偵防。"
+		               },
+		               {  
+		                  "platform":"監督關渡水岸環境再造工程，營造優質觀光特色。"
+		               },
+		               {  
+		                  "platform":"要求優先辦理災害應變中心資訊系統汰換，優化防災作業。"
+		               },
+		               {  
+		                  "platform":"關心健康、食安議題，如：「一、二代市民健康卡問題多」、「市售中藥養身飲品糖分偏高」、「市售清潔用品三氯沙超標」、「擴大辦理65歲以上免費施打肺炎鏈球菌疫苗」等，未來將持續把關，讓台北市民健康再進化！"
+		               },
+		               {  
+		                  "platform":"青年購屋不易，給予更多優惠！"
+		               }
+		            ],
+		            "tag_cnt":"08",
+		            "oary3":[  
+		               {  
+		                  "tag":"關懷",
+		                  "value": 1
+		               },
+		               {  
+		                  "tag":"治安",
+		                  "value": 5
+		               },
+		               {  
+		                  "tag":"產業",
+		                  "value": 4
+		               },
+		               {  
+		                  "tag":"市容",
+		                  "value": 2
+		               },
+		               {  
+		                  "tag":"育兒",
+		                  "value": 1
+		               }
+		            ]
+		         },
+		         {  
+		            "cand_name":"謝維洲",
+		            "party":"party-green",
+		            "platform_cnt":"08",
+		            "fan_page": "javascript:;",
+		            "voice": '44',
+		            "oary2":[  
+		               {  
+		                  "platform":"延續謝長廷、高建智、莊瑞雄在士林北投服務處的奉獻傳統，以「維骨力」的精神，加強服務。"
+		               },
+		               {  
+		                  "platform":"推動國中小學營養午餐的定期檢驗，落實食安管控。"
+		               },
+		               {  
+		                  "platform":"推動士林北投(1)老舊社區更新(2)觀光產業(3)規劃士林、天母、石牌商圈，促進地方繁榮。"
+		               },
+		               {  
+		                  "platform":"支持柯文哲擔任台北市長，改變藍綠對立的文化，提升生活品質，再創首都領導地位，恢復市民光榮感。"
+		               },
+		               {  
+		                  "platform":"改善士林北投偏遠山區及郊外地方的交通，教育，就業環境的問題。"
+		               },
+		               {  
+		                  "platform":"服務處提供免費法律諮詢，保障基本人權，解決民眾困難，並定期舉辦市政座談，邀請市民參與，落實公民審議精神。"
+		               },
+		               {  
+		                  "platform":"爭取婦女就業機會，推動日照，減輕家庭負擔，鼓勵老人社會參與，解決青年就業問題。"
+		               },
+		               {  
+		                  "platform":"督促市府盡快落實開發社子島，關渡平原的承諾。"
+		               }
+		            ],
+		            "tag_cnt":"04",
+		            "oary3":[  
+		               {  
+		                  "tag":"產業",
+		                  "value": 3
+		               },
+		               {  
+		                  "tag":"市容",
+		                  "value": 5
+		               },
+		               {  
+		                  "tag":"觀光",
+		                  "value": 4
+		               },
+		               {  
+		                  "tag":"食安",
+		                  "value": 1
+		               },
+		               {  
+		                  "tag":"寵物",
+		                  "value": 4
+		               }
+		            ]
+		         }
+		      ]
+		   }
+		}; 
 
 		
 		
@@ -327,13 +327,13 @@ const trophyPathRoute='M3.84615385,7.53232523e-05 C3.5687416,-0.00374986189 3.31
 
 function showCards(){
 
-	JSON.parse(localStorage['george']).transaction.oary.forEach((item, index) => {
-	// george.transaction.oary.forEach((item, index) => {
+	// JSON.parse(localStorage['george']).transaction.oary.forEach((item, index) => {
+	george.transaction.oary.forEach((item, index) => {
 		var clone = document.importNode(cardTemp.content, true);
 		//assign spider id
 		clone.querySelector('.spider').id=`spider${index+1}`;
 		//assign number
-		clone.querySelector('.card-info .number').textContent=index+1;
+		clone.querySelector('.card-info .number').textContent=item.platform_cnt;
 		//assign name
 		clone.querySelector('.card-info .name').textContent=item.cand_name;
 		clone.querySelector('.card-info .party').src=`inc/img/${item.party}.png`;
@@ -341,7 +341,7 @@ function showCards(){
 
 		/*******popup area*****/
 		clone.querySelector('.popup-header .photo').src=`inc/img/${item.cand_name}.jpg`;
-		clone.querySelector('.popup-header .number').textContent=index+1;
+		clone.querySelector('.popup-header .number').textContent=item.platform_cnt;
 		clone.querySelector('.popup-header .name').textContent=item.cand_name;
 		clone.querySelector('.popup-header .party').src=`inc/img/${item.party}.png`;
 		clone.querySelector('.popup-spider').id=`popSpider${index+1}`;
@@ -582,7 +582,6 @@ function showCards(){
 
 
 	});
-
 
 }
 
