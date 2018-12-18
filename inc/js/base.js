@@ -36,7 +36,10 @@ $(function(){
 function mapActive(th){
 	const selectedArea=document.querySelector('.select-area.active');
 
-	selectedArea.classList.remove('active');
+	if(selectedArea){
+		selectedArea.classList.remove('active');	
+	}
+	
 	th.classList.add('active');
 
 	areaText.textContent=th.dataset.text;
@@ -67,6 +70,7 @@ const george={
 		            "platform_cnt":"06",
 		            "fan_page": "https://www.facebook.com/moko.beauty.dog/",
 		            "voice": '-42',
+		            "seq_no": '1',
 		            "oary2":[  
 		               {  
 		                  "platform":"推動傳統市場打造成觀光夜市。"
@@ -117,6 +121,7 @@ const george={
 		            "platform_cnt":"10",
 		            "fan_page": "https://www.facebook.com/moko.beauty.dog/",
 		            "voice": '-2',
+		            "seq_no": '2',
 		            "oary2":[  
 		               {  
 		                  "platform":"「加油站」遠離「住宅區」及「故宮博物館歷史觀光區」, 並實現「大故宮綠色休閒觀光歷史文化區計畫」"
@@ -179,6 +184,7 @@ const george={
 		            "platform_cnt":"18",
 		            "fan_page": "javascript:;",
 		            "voice": '14',
+		            "seq_no": '3'
 		            "oary2":[  
 		               {  
 		                  "platform":"任內關心「公辦民營老人安養護中心照護不周」、「獨老送餐缺失」等問題，未來將朝健全長者照顧網絡邁進。"
@@ -265,6 +271,7 @@ const george={
 		            "platform_cnt":"08",
 		            "fan_page": "javascript:;",
 		            "voice": '44',
+		            "seq_no": '4',
 		            "oary2":[  
 		               {  
 		                  "platform":"延續謝長廷、高建智、莊瑞雄在士林北投服務處的奉獻傳統，以「維骨力」的精神，加強服務。"
@@ -333,7 +340,7 @@ function showCards(){
 		//assign spider id
 		clone.querySelector('.spider').id=`spider${index+1}`;
 		//assign number
-		clone.querySelector('.card-info .number').textContent=item.platform_cnt;
+		clone.querySelector('.card-info .number').textContent=item.seq_no;
 		//assign name
 		clone.querySelector('.card-info .name').textContent=item.cand_name;
 		clone.querySelector('.card-info .party').src=`inc/img/${item.party}.png`;
@@ -341,7 +348,7 @@ function showCards(){
 
 		/*******popup area*****/
 		clone.querySelector('.popup-header .photo').src=`inc/img/${item.cand_name}.jpg`;
-		clone.querySelector('.popup-header .number').textContent=item.platform_cnt;
+		clone.querySelector('.popup-header .number').textContent=item.seq_no;
 		clone.querySelector('.popup-header .name').textContent=item.cand_name;
 		clone.querySelector('.popup-header .party').src=`inc/img/${item.party}.png`;
 		clone.querySelector('.popup-spider').id=`popSpider${index+1}`;
