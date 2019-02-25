@@ -184,7 +184,7 @@ const george={
 		            "platform_cnt":"18",
 		            "fan_page": "javascript:;",
 		            "voice": '14',
-		            "seq_no": '3'
+		            "seq_no": '3',
 		            "oary2":[  
 		               {  
 		                  "platform":"任內關心「公辦民營老人安養護中心照護不周」、「獨老送餐缺失」等問題，未來將朝健全長者照顧網絡邁進。"
@@ -612,25 +612,28 @@ function saveValue(th, e){
 		iary: checkedArr
 	};
 	
-	//ajax
-	var xmlhttp=new XMLHttpRequest();
-	const IPaddress=location.href.split('8080').shift();
-	console.log(`${IPaddress}5000/api/bbinqcan`);
+	//ajax --for Backend
+	// var xmlhttp=new XMLHttpRequest();
+	// const IPaddress=location.href.split('8080').shift();
+	// console.log(`${IPaddress}5000/api/bbinqcan`);
 
-	xmlhttp.open('POST', `${IPaddress}5000/api/bbinqcan`, true);
-	xmlhttp.setRequestHeader("Content-Type", "application/json;charset=UTF-8");
+	// xmlhttp.open('POST', `${IPaddress}5000/api/bbinqcan`, true);
+	// xmlhttp.setRequestHeader("Content-Type", "application/json;charset=UTF-8");
 
-	xmlhttp.send(JSON.stringify(checkedJSON));
-	console.log(checkedJSON);
+	// xmlhttp.send(JSON.stringify(checkedJSON));
+	// console.log(checkedJSON);
 
-	xmlhttp.onreadystatechange=function(){
+	// xmlhttp.onreadystatechange=function(){
 
-		if(xmlhttp.readyState==4 && xmlhttp.status==200){
-			localStorage['george']=xmlhttp.responseText;
-			console.log(xmlhttp.responseText);
-			location.href='main1002.html';
-		}
-	};
+	// 	if(xmlhttp.readyState==4 && xmlhttp.status==200){
+	// 		localStorage['george']=xmlhttp.responseText;
+	// 		location.href='main1002.html';
+	// 	}
+	// };
+
+
+	// --only for Prototype
+	location.href='main1002.html';
 
 
 	//selected info
